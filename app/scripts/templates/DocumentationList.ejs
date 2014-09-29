@@ -1,0 +1,12 @@
+<ul>
+  <% _.each(docs, function(doc) { %>
+    <li> <%= doc.name %> </li>
+    <ul>
+      <% _.each(doc.builds, function(build) { %>
+        <li>
+          <%= build %>
+        </li>
+      <% }); %>    
+    </ul>
+  <% }); %>
+</ul>

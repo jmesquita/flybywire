@@ -1,0 +1,119 @@
+<!doctype html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Flybywire</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" href="styles/main.css">
+        <!-- endbuild -->
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <nav class="navbar navbar-default" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">FlyByWire</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wirephone  <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Documentation</a></li>
+                    <ul><li><a href="#documentation/wirephone/all" class="wp_link">All</a></li></ul>
+                    <ul><li><a href="#documentation/wirephone/master" class="wp_link">Master</a></li></ul>
+                    <ul><li><a href="#documentation/wirephone/develop" class="wp_link">Develop</a></li></ul>
+                    <li class="divider"></li>
+                    <li><a href="#">Releases</a></li>
+                    <ul><li><a href="#wirephone/releases/all" class="wp_link">All</a></li></ul>
+                    <ul><li><a href="#wirephone/releases/master" class="wp_link">Master</a></li></ul>
+                    <ul><li><a href="#wirephone/releases/develop" class="wp_link">Develop</a></li></ul>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wirerouting  <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Documentation</a></li>
+                    <ul><li><a href="#">All</a></li></ul>
+                    <ul><li><a href="#">Master</a></li></ul>
+                    <ul><li><a href="#">Develop</a></li></ul>
+                    <li class="divider"></li>
+                    <li><a href="#">Releases</a></li>
+                    <ul><li><a href="#">All</a></li></ul>
+                    <ul><li><a href="#">Master</a></li></ul>
+                    <ul><li><a href="#">Develop</a></li></ul>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+        <div id="the_views">
+        <div class="jumbotron">
+            <div class="container">
+              <h1>Loading data...</h1>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer">
+            <p>Developed by <a href="http://www.indicium.com.ar">Indicium SRL</a>.</p>
+        </div>
+
+
+        <!-- build:js scripts/vendor.js -->
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js({.tmp,app}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/templates.js"></script>
+        <script src="scripts/views/NavBarView.js"></script>
+        <script src="scripts/routes/Router.js"></script>
+        <script src="scripts/models/Projects.js"></script>
+        <script src="scripts/collections/Projects.js"></script>
+        <script src="scripts/views/Welcome.js"></script>
+        <script src="scripts/views/Documentation.js"></script>
+        <script src="scripts/models/Documentation.js"></script>
+        <script src="scripts/collections/Documentation.js"></script>
+        <!-- endbuild -->
+</body>
+</html>

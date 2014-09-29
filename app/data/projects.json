@@ -1,0 +1,4 @@
+[
+	{"id": "wirephone", "urls": {"docs": "data/wirephone_docs.json"}, "name": "Wirephone"},
+	{"id": "wirerouting", "urls": {"docs": "data/wirerouting_docs.json"}, "name": "Wirephone"}
+]
