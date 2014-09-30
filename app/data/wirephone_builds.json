@@ -1,0 +1,4 @@
+[
+	{"id": 1, "timestamp": "Today", "branch": "master", "sha1": "asdasdasda", "build_url": "http://server:port/jenkins/job/foo/15/"},
+	{"id": 2, "timestamp": "Yesterday", "branch": "master", "sha1": "lkjalskdjl", "build_url": "http://server:port/jenkins/job/foo/15/"}
+]

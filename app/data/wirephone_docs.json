@@ -1,4 +1,4 @@
 [
-	{"id": "master", "name": "Stable", "builds": [1,2,3,4,5]},
-	{"id": "develop", "name": "Development", "builds": [6,7,8,9]}
+	{"id": "master", "name": "Stable"},
+	{"id": "develop", "name": "Development"}
 ]

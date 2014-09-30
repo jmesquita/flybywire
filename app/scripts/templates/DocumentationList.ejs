@@ -4,7 +4,12 @@
     <ul>
       <% _.each(doc.builds, function(build) { %>
         <li>
-          <%= build %>
+            <p>
+              <%= build.id %> - <%= build.timestamp %>
+            </p>
+            <p>
+              <%= build.sha1 %>
+            </p>
         </li>
       <% }); %>    
     </ul>
